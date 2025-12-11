@@ -1,6 +1,7 @@
 .page {
   font-family: var(--font-family);
   background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 .decorated-zone::before {
@@ -203,7 +204,7 @@
 }
 
 
-@media (width >= 768px){
+@media (width >= 768px) {
   .header {
     padding: 20px;
   }
@@ -237,11 +238,11 @@
     grid-column: 2 / 3;
   }
 
-  .section:nth-child(2) .card{
+  .section:nth-child(2) .card {
     grid-column: 1 / 4;
   }
 
-  .section > .title_decor{
+  .section > .title_decor {
     grid-column: 2 / 3;
   }
 
@@ -343,12 +344,12 @@
     grid-row: span 1;
   }
 
-  .section:nth-child(2) .card{
+  .section:nth-child(2) .card {
     grid-row: 2 / 3 ;
     grid-column: span 1;
   }
 
-  .section > .title_decor{
+  .section > .title_decor {
     grid-column: 2 / 4;
   }
 
